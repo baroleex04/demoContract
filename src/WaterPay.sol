@@ -5,7 +5,7 @@ import "@thirdweb-dev/contracts/extension/ContractMetadata.sol";
 
 contract WaterPay is ContractMetadata {
     address public owner;
-
+    // update to test branch
     event PayReceived(address indexed customer, uint256 amount);
 
     event MoneyWithDrawn(address indexed owner, uint256 amount);
